@@ -60,7 +60,11 @@ h1 {
     color: white !important;
     background-color:#2e6da4 !important;
     border-color: purple !important;
-  }
+}
+
+  .col-md-4 {
+      margin-bottom:15px;
+}
 
 @media screen and (max-width: 480px) {
     .movImage {
