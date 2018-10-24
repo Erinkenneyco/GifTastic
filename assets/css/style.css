@@ -36,6 +36,7 @@ h1 {
 
 .btn-primary {
     margin-left: 10px;
+    margin-bottom:10px;
     background: pink;
     color: purple;
 }
@@ -100,4 +101,4 @@ h1 {
     height:30px;
     text-align:center;
     color:white;
-  }
+}
