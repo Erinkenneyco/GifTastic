@@ -1,11 +1,13 @@
-body {
-    background: url("C:/Users/jamie/Desktop/code/GifTastic/assets/images/park-troopers-221399-unsplash.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
+body{
+    background:url("park-troopers-221399-unsplash.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
 h1 {
     border-style:double;
     border-width:20px 10px;
