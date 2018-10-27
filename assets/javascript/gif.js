@@ -10,21 +10,21 @@ $(document).ready(function() {
     }
 });
 
-function princessButtonClicked(event) {
+function princessButtonClicked() {
     var userInput = $('#princess-input').val();
-    event.preventDefault();
     searchGif(userInput);
 }
 
-function submitButtonClicked() {
-    var userInput = $('#princess-input').val();
-    // $("#add-user").on("click", function(event) {
-        // Don't refresh the page!
-        // event.preventDefault();
+function submitButtonClicked(event) {
+     var userInput = $('#princess-input').val();
   
 
     if (userInput) {
         $('#princess-buttons').append("<button type='button' onclick='searchGif(\"" + userInput + "\")' class='btn btn-primary' value=' " + userInput + "'> " + userInput + " </button>");
+    }
+
+    function newFunction() {
+        event.preventDefault();
     }
 }
 
