@@ -10,13 +10,18 @@ $(document).ready(function() {
     }
 });
 
-function princessButtonClicked() {
+function princessButtonClicked(event) {
     var userInput = $('#princess-input').val();
+    event.preventDefault();
     searchGif(userInput);
 }
 
 function submitButtonClicked() {
     var userInput = $('#princess-input').val();
+    // $("#add-user").on("click", function(event) {
+        // Don't refresh the page!
+        // event.preventDefault();
+  
 
     if (userInput) {
         $('#princess-buttons').append("<button type='button' onclick='searchGif(\"" + userInput + "\")' class='btn btn-primary' value=' " + userInput + "'> " + userInput + " </button>");
